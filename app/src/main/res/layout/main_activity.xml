@@ -29,22 +29,39 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/subtract_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="-"
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/multiply_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="*"
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/divide_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="70dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="Result will be shown here: "
+        android:textColor="#5759f7"/>
 
 
 </LinearLayout>
