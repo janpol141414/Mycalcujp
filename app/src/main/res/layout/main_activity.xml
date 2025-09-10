@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:id="@+id/number1_edit_text"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -12,7 +12,7 @@
         android:text=""
         android:hint="Enter second number:" />
 
-    <TextView
+    <EditText
         android:id="@+id/number2_edit_text"
         android:layout_width="match_parent"
         android:layout_height="100dp"
